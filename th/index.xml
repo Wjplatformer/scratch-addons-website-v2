@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ส่วนขยายสำหรับ scratch</title><link>https://scratchaddons.com/th/</link><description>คอนเทนต์ล่าสุดบน ส่วนขยายสำหรับ scratch</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2022 ผู้มีส่วนร่วมในส่วนขยายสำหรับ scratch</copyright><atom:link href="https://scratchaddons.com/th/index.xml" rel="self" type="application/rss+xml"/><item><title>Addon Basics</title><link>https://scratchaddons.com/th/docs/develop/getting-started/addon-basics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/docs/develop/getting-started/addon-basics/</guid><description>What&amp;rsquo;s an addon, really? Actually, an addon isn&amp;rsquo;t much more than a userscript, a userstyle, or a combination of the two. If any of these are related, then we make them part of the same addon, under a single name. For example, the &amp;ldquo;Scratch 3 Developer Tools&amp;rdquo; addon has a userscript in charge of adding a find box to the editor, and a userstyle that adds CSS to that box.</description></item><item><title>Quick Start</title><link>https://scratchaddons.com/th/docs/getting-started/quick-start/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/docs/getting-started/quick-start/</guid><description>Installing Let&amp;rsquo;s get started by installing Scratch Addons. Scratch Addons is available in both Chrome Web Store and Add-ons for Firefox.
+Chrome Web Store (for Google Chrome and other Chromium-based browsers) Add-ons for Firefox (for Mozilla Firefox) Microsoft Edge Add-ons (for Microsoft Edge) วิธีเริ่มต้น To get started, you need to access the settings page of the addon to see the functions of it.
+Locate Scratch Addons on the toolbar and click it.</description></item><item><title>Installing</title><link>https://scratchaddons.com/th/docs/getting-started/installing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/docs/getting-started/installing/</guid><description>From extension stores Scratch Addons is available in these stores.
+Store ติดตั้ง Supported browsers System requirements Chrome Web Store Google Chrome 80+
+Microsoft Edge 80+
+Opera 67+
+Brave 1.3+
+Vivaldi 2.11+
+Chromium 80+ Windows 7+
+OS X / MacOS 10.11+
+Chromebooks less than ~6 years old Add-ons for Firefox Mozilla Firefox 86+ Windows 7+
+OS X / MacOS 10.12+ Microsoft Edge Addons Microsoft Edge 80+ Windows 7+
+OS X / MacOS 10.</description></item><item><title>Creating an Addon</title><link>https://scratchaddons.com/th/docs/develop/getting-started/creating-an-addon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/docs/develop/getting-started/creating-an-addon/</guid><description>Required software: text editor, Chrome.
+If possible, disable the Scratch Addons extension you downloaded from the store before proceeding to avoid issues.
+Step 1: Read about addon basics Make sure to read that article to be familiar with the terminology.
+Step 2: Fork/clone the repo Or download as ZIP, if you want. In other words, just download the source code locally.
+Step 3: Load the extension into Chrome Note: Chrome is recommended for working on addons.</description></item><item><title>คำถามที่พบบ่อย</title><link>https://scratchaddons.com/th/docs/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/docs/faq/</guid><description>หน้านี้มีรายการคำถามที่พบบ่อยเกี่ยวกับส่วนขยายสำหรับ scratch และโครงงานของมัน
+ส่วนขยายสำหรับ scratch คืออะไร ส่วขยายสำหรับ scratch คือส่วนขยาย &amp;ldquo;ทุกอย่างในที่เดียว&amp;rdquo; สำหรับเว็บไซต์ และ ตัวแก้ไขงานของ scratch เราเพิ่มคุณสมบัติและธีม (เราเรียกมันว่าส่วนขยาย) ทั้งสำหรับเว็บไซต์และตัวแก้ไขงาน ภารกิจของเราคือการรวม ส่วนขยาย scratch ที่มีอยู่แล้วทั้งหมด userscript userstyles สร้างโดยผู้คนหลายคนในชุมชน scratch เป็นสิ่งที่เข้าถึงได้ง่าย โดยยังให้ผู้ใช้งานเลือกว่าจะเปิดใช้งานอะไร
+&amp;ldquo;ส่วนขยาย&amp;rdquo; คืออะไรกันแน่ ส่วนขยายนั้นคล้ายกับ ส่วนเสริม หรือ userscript แต่พวกมันใช้ api พิเศษ สร้างโดย ส่วนขยายสำหรับ scratch. api เหล่านี้ทำให้ส่วนขยายสามารถเรียกใช้สคริปต์ บนหน้า scratch (userscript) หรือใช้งานธีม บนหน้า scratch (userstyle)
+userscript สามารถใช้ JavaScript APIs ส่วนขยาย* ซึ่งทำให้มันสามารถดึงข้อมูลเกี่ยวกับ scratch (เช่น ดูว่าใครเป็นคนที่ล็อกอินอยู่) และใช้ APIs ส่วนขยาย (เช่นส่งการแจ้งเตือน)
+แล้วถ้าทุกอย่างเป็นส่วนขยาย แล้ว ส่วนขยายสำหรับ scratch ทำอะไรละ โดยตัวมันเอง ส่วนขยายสำหรับ scratch เป็นเพียงตัวโหลด ส่วนขยาย งานหลักๆของมันมี :</description></item><item><title>Adding an Icon to a Setting Name</title><link>https://scratchaddons.com/th/docs/develop/adding-an-icon-to-a-setting-name/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/docs/develop/adding-an-icon-to-a-setting-name/</guid><description>To add an icon to a setting name without causing crashes,
+Make sure the icon file name does not contain hyphens Write @ICONFILENAME.svg setting name on addon.json Add ICONFILENAME.svg at /images/icons/ if missing Edit /background/load-addon-manifests.js to add iconfilenameIcon: &amp;quot;@ICONFILENAME.svg&amp;quot;, Edit /addons/scratch-notifier/notifier.js for Scratch Notifier settings</description></item><item><title>Joining the Localization Team</title><link>https://scratchaddons.com/th/docs/localization/joining-the-localization-team/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/docs/localization/joining-the-localization-team/</guid><description>Already translated: Italian, Japanese, Portuguese, Slovenian and Spanish. We won&amp;rsquo;t be accepting any new translators for these languages.
+Thanks for being interested on volunteering to translate Scratch Addons to other languages!
+Scratch Addons is a non-profit open source project where volunteer web developers maintain the extension and create its addons.
+Even if you haven&amp;rsquo;t ever coded a single line of JavaScript, you can still help us achieve our goal of making everyone&amp;rsquo;s experience with Scratch better!</description></item><item><title>Localizing Addons</title><link>https://scratchaddons.com/th/docs/localization/localizing-addons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/docs/localization/localizing-addons/</guid><description>Localizing addons is easy.
+Adding messages Under addons-l10n/en/, make a file named ADDONID.json, where ADDONID is the addon&amp;rsquo;s ID (the folder name). Write your messages that you want to translate there:
+{ &amp;#34;ADDONID/meow&amp;#34;: &amp;#34;Meow&amp;#34;, &amp;#34;ADDONID/cats&amp;#34;: &amp;#34;{number, plural, one {1 cat} other {# cats}}&amp;#34;, &amp;#34;ADDONID/eat&amp;#34;: &amp;#34;I want to eat {food}!&amp;#34;, &amp;#34;ADDONID/salmon&amp;#34;: &amp;#34;salmon&amp;#34;, &amp;#34;ADDONID/sardine&amp;#34;: &amp;#34;sardine&amp;#34; } Placeholders Sometimes messages need to have things that are dynamically generated. For example, number of cats, or input.</description></item><item><title>Userscripts</title><link>https://scratchaddons.com/th/docs/develop/addon-types/userscripts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/docs/develop/addon-types/userscripts/</guid><description>What are they? Userscripts allow you to run code along Scratch pages - you can do stuff like add buttons, enhance the Scratch editor, or anything you can imagine.
+How do I add a userscript? Make sure to refresh Scratch Addons from chrome://extensions after doing any changes to your addon.
+Go to the manifest of your addon (addon.json) and add a property called userscripts&amp;quot;.
+This property must be an array.</description></item><item><title>Userstyles</title><link>https://scratchaddons.com/th/docs/develop/addon-types/userstyles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/docs/develop/addon-types/userstyles/</guid><description>What are they? Userstyles allows you to inject CSS on the Scratch website - useful to make the buttons you add with userscripts colorful, or to customize native Scratch element.
+How do I add a userstyle? Make sure to refresh Scratch Addons from chrome://extensions after doing any changes to your addon.
+Go to the manifest of your addon (addon.json) and add a property called &amp;quot;userstyles&amp;quot;.
+This property must be an array.</description></item><item><title>การตั้งค่าส่วนขยายสำหรับ scratch</title><link>https://scratchaddons.com/th/extension-settings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/extension-settings/</guid><description>การตั้งค่าส่วนขยายสำหรับ scratch วิธีการเข้าหน้าการตั้งค่า ส่วนชยายสำหรับ scratch ขั้นตอนที่ 1 คลิกไอคอน ส่วนขยายสำหรับ scratch มันจะอยู่บนมุมขวาบนของเบราเซอร์คุณ หากคุณใช้ google chrome คุณต้องคลิกป่มรูปจิ๊กซอว์เพื่อจะหาไอคอนได้
+ขั้นตอนที่ 2 คลิกรูปเฟืองเพื่อไปหน้าการตั้งคา มันจะเปิดหน้าการตั้งค่า ซึ่งคุณจะสามารถปรับเปลี่ยนการทำงานของส่วนขยายนี้ได้
+ขั้นตอนที่ 3 เลื่อนดูรายการส่วนขยายและเปิดใช้งานส่วนขยายที่คุณต้องการใช้ คุณยังสามารถตั้งค่าส่วนขยายต่างๆที่ด้านล่างของส่วนขยายต่างๆ</description></item><item><title>เครดิต</title><link>https://scratchaddons.com/th/credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/credits/</guid><description>เครดิต ผู้ร่วมโครงการ ขอขอบคุณอย่างมากสำหรับคนในหน้านี้ที่ร่วมกันทำงานบนตัวส่วนขยาย ฟีเจอร์ ธีม หน้าเว็บ และอื่นๆ (อธิบายอิโมจิ)
+คุณก็สามารถมีส่วนร่วมกับเราได้ด้วย หากคุณเคยมีส่วนร่วมกับโครงงานนี้ อ่านวิธีให้ชื่อคุณขึ้นตรงนี้ได้ ที่นี่
+โครงงานนี้ทำตามรายละเอียดของ all-contributors ดู repo ผู้มีส่วนร่วมได้ที่นี่
+WorldLanguages
+📆🚧🤔💼🌍🫂
+574
+apple502j
+🚧🛡️🐛🌍
+718
+tb148
+💻🔧
+24
+BoomerScratch
+💻
+35
+Explosion-Scratch
+💻📖🤔🐛🫂
+9
+GrahamSH-LLK
+💻🤔📖🎨
+297
+mxmou
+💻💡🌍
+194
+griffpatch
+💻💼
+5
+Hans5958
+💻📖🤔🔧💡
+898
+GDUcrash
+💻🎨
+16
+jeffalo
+💻🤔📹
+29
+GarboMuffin
+💻
+119
+towerofnix
+💻
+6
+NoobTracker
+💻🤔
+4
+lholliger
+💻
+easrng
+💻
+4
+devxan
+🐛🤔📖🫂
+2
+retronbv
+💻🤔🫂
+2
+PlatinumPhoenix</description></item><item><title>บันทึกการเปลี่ยนแปลง</title><link>https://scratchaddons.com/th/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/changelog/</guid><description>บันทึกการเปลี่ยนแปลง การเปลี่ยนแปลงที่น่าสนใจของโปรเจคต์นี้จะถูกบันทึกไว้ที่นี่
+หมายเหตุ:บันทึกการเปลี่ยนแปลงนี้ถูกย่อส่วน ดู บันทึกการเปลี่ยนแปลงแบบเต็มเพื่อดูการเปลี่ยนแปลงทั้งหมด
+v1.27.3 2022-07-22 ล่าสุด ¶ Bug fix: &amp;ldquo;hide stage and sprite pane&amp;rdquo; hiding the stage in project pages Bug fix: &amp;ldquo;auto-hide block palette&amp;rdquo; not updating workspace metrics after changing settings ลิ้งค์ หน้าเผยแพร่บน github สถานะของ repository เมื่อเผยแพร่ commit ทั้งหมดบนเวอร์ชั่นนี้ v1.27.2 2022-07-20 ¶ Bug fix: &amp;ldquo;hide stage and sprite pane&amp;rdquo; crashing the page if &amp;ldquo;touching mouse pointer&amp;rdquo; block runs while the stage is hidden ลิ้งค์ หน้าเผยแพร่บน github สถานะของ repository เมื่อเผยแพร่ commit ทั้งหมดบนเวอร์ชั่นนี้ v1.</description></item><item><title>เบราเซอร์ที่ไม่รองรับ</title><link>https://scratchaddons.com/th/unsupported-browser/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/unsupported-browser/</guid><description> เบราเซอร์ที่ไม่รองรับ ส่วนขยายสำหรับ scratch ไม่รองรับเบราเซอร์ที่คุนใช้อยู่ ใช้ Chrome, Firefox เวอร์ชั่นล่าสุดหรือเบราเซอร์อื่นๆ ที่มีพื้นฐานแบบเดียวกันเพื่อเริ่มต้น
+Chromium 80+ Chrome 80+ ติดตั้ง วิธีอัปเดต Microsoft Edge 80+ ติดตั้ง วิธีอัปเดต Opera 67+ ติดตั้ง วิธีอัปเดต Brave 1.3+ ติดตั้ง Vivaldi 2.11+ ติดตั้ง วิธีอัปเดต ความต้องการด้านระบบ: Windows 7+ OS X / MacOS 10.11+ Chromebooks อายุน้อยกว่า ~6 ปี Firefox 86+ Firefox 86+ ติดตั้ง วิธีอัปเดต ความต้องการของระบบ: Windows 7+ OS X / MacOS 10.12+</description></item><item><title>ยินดีต้อนรับ!</title><link>https://scratchaddons.com/th/welcome/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/welcome/</guid><description>ยินดีต้อนรับ! ส่วนขยายสำหรับ scratch ได้ติดตั้งเสร็จแล้ว
+ขอบคุณสำหรับการติดตั้ง ขอให้คุณเพลิดเพลินกับส่วนขยาย
+วิธีเริ่มต้น ขั้นตอนที่ 1 คลิกไอคอน ส่วนขยายสำหรับ scratch มันจะอยู่บนมุมขวาบนของเบราเซอร์คุณ หากคุณใช้ google chrome คุณต้องคลิกป่มรูปจิ๊กซอว์เพื่อจะหาไอคอนได้
+ขั้นตอนที่ 2 คลิกรูปเฟืองเพื่อไปหน้าการตั้งค่า มันจะเปิดหน้าการตั้งค่า ซึ่งคุณจะสามารถปรับเปลี่ยนการทำงานของส่วนขยายนี้ได้
+ขั้นตอนที่ 3 เลื่อนดูรายการส่วนขยายและเปิดใช้งานส่วนขยายที่คุณต้องการใช้ คุณยังสามารถตั้งค่าส่วนขยายต่างๆที่ด้านล่างของส่วนขยายต่างๆ
+ต้องการสนับสนุนเราเหรอ? คุณสามารถให้ดาว repository ของเราบน github หรือรีวิวเราบนหน้าส่วนขยายของ chromeหรือ หน้าส่วนขยายของ firefox</description></item><item><title>ลาก่อน!</title><link>https://scratchaddons.com/th/farewell/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/farewell/</guid><description> ลาก่อน! ส่วนขยายสำหรับ Scratch ได้ถูกถอนการติดตั้งแล้ว ขอบคุณสำหรับใช้ส่วนขยายของเรา
+คุณสามารถติดตั้งส่วนขยายได้อีกครั้งโดยการคลิกปุ่มติดตั้งด้านบน คุณยังสามารถเขียนรีวิวบน หน้าส่วนขยายของ google chrome หรือ หน้าส่วนขยายของ firefox
+จากเหตุผลที่คุณถอนการติดตั้งส่วนขยายนี้ นี่คือสิ่งอื่นที่คุณทำได้
+เกิดปัญหาเหรอ บอกเราได้ที่นี่ หรือสร้าง issue ที่นี่ มีฟีเจอร์หายไปเหรอ บอกเราได้ที่นี่หรือแนะนำโดย สร้าง issue หรือโพสต์เกี่ยวกับมันบน แท็ปพูดคุยของเรา รู้สึกผิดหวังหรืออยากบอกอะไรเรา บอกได้ที่นี่</description></item><item><title>ส่งความคิดเห็น</title><link>https://scratchaddons.com/th/feedback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/feedback/</guid><description>ส่งความคิดเห็น อยากบอกอะไรเกี่ยวกับส่วนขยายสำหรับ scratch เหรอ บอกเราได้เลยในฟอร์มส่งความคิดเห็น
+ชื่อผู้ใช้ scratch หรืออื่นๆ (ไม่บังคับ)
+ความคิดเห็น
+ส่งรายการของส่วนขยายที่คุณเปิดใช้อยู่ (แนะนำ)
+ส่ง
+ทางเลือกอื่น หากคุณต้องการทางเลือกอื่น ลองดูที่นี่
+สร้าง issue บนrepository สร้างโพสต์บน แถบพูดคุย ส่งข้อความใน discord ของเรา ติดต่อผู้ช่วยของเราทาง discord twitter หรืออื่นๆ เราไม่แนะนำให้คุณติดต่อพวกเราทาง scratch เนื่องจาก ข้อกำหนดที่ห้ามโฆษณา ส่วนขยายและ userscript
+แล้วก็ เรามีหน้าคำถามที่พบบ่อย สำหรับคำถามทั่วไป</description></item><item><title>ส่วนขยาย</title><link>https://scratchaddons.com/th/addons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/addons/</guid><description>ส่วนขยาย หน้าเว็ปนี้แสดงส่วนขยายทั้งหมดที่มีอยู่ใน ส่วนขยายสำหรับ scratch
+หน้านี้ยังไม่เสร็จและคุณอาจช่วยเราเพิ่มรูปภาพได้ ที่นี่
+139 ส่วนขยาย
+ดูเป็นรายการ
+ส่วนขยายที่ถูกซ่อน
+2D color picker
+2d-color-picker Replaces saturation and brightness sliders in the costume editor with a 2D color picker. Hold Shift while dragging the cursor to change the values on a single axis.
+60FPS project player mode
+🌟
+60fps Alt&amp;#43;Click the green flag to toggle 60FPS.
+Capitalized Account Settings
+🥚
+account-settings-capitalize Changes &amp;#34;Account settings&amp;#34; in the account menu to &amp;#34;Account Settings&amp;#34;.</description></item><item><title>อัปเดตส่วนขยาย (การเปลี่ยนผ่าน)</title><link>https://scratchaddons.com/th/scratch-messaging-transition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://scratchaddons.com/th/scratch-messaging-transition/</guid><description>Scratch Messaging Extension is now Scratch Addons! What happened? Scratch Messaging Extension (by griffpatch) has been updated and is now called Scratch Addons.
+Click the Scratch Addons icon in the extension bar to check out the new redesigned messages summary!
+Scratch Addons also includes many other Scratch related features. To enable them, go to Scratch Addons settings. For example, you can turn on Scratch Notifier to get browser notifications when you get new Scratch messages.</description></item></channel></rss>
